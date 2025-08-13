@@ -1,0 +1,6 @@
+13 August 2025
+-Learnt about .on and .emit in sockets
+-.on->listen
+-.emit->fire 
+
+--Need to learn more about how dotenv injects key-values in the program as i have to import and config it again in the ai.service.js then only the generateResponse works
