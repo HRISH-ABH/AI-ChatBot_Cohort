@@ -1,6 +1,34 @@
-13 August 2025
--Learnt about .on and .emit in sockets
--.on->listen
--.emit->fire 
 
---Need to learn more about how dotenv injects key-values in the program as i have to import and config it again in the ai.service.js then only the generateResponse works
+13 August 2025
+
+
+io-server
+socket-single user
+
+Built-in Events:
+- connection
+- disconnect
+
+built-in events--
+---.connection
+---.disconnect
+
+Server-Client Interaction:
+- If a listener is on the server, the client will fire an event.
+- If a server fires an event, the client will listen.
+
+
+Socket Methods:
+- .on: listen
+- .emit: fire
+
+
+
+- Learn how dotenv injects key-values into the program.
+-Import this way -> import dotenv from "dotenv/config"
+
+
+whoever fires an event (server/client) can send data with it too! 
+and the listener can recieve it as well.
+Litner-on (create a lsitner in postman )
+Fire-Emit
